@@ -1,12 +1,12 @@
 package entities
 
-type person struct {
+type Person struct {
 	Name string
 	Age  int
 }
 
-func NewPerson(name string, age int) person {
-	var person = person{name, age}
+func NewPerson(name string, age int) Person {
+	person := Person{name, age}
 
 	return person
 }
